@@ -68,7 +68,7 @@
                         <button type="button" class="btn btn-lg btn-primary">เลือก</button></td>
                 </tr>
                 <tr>
-                    <th scope="row">P0002</th>
+                    <th scope="row">T0002</th>
                     <td>สติกเกอร์</td>
                     <td>
                         <button type="button" class="btn btn-lg btn-primary">เลือก</button></td>

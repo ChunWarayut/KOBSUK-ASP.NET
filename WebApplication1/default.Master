@@ -41,68 +41,70 @@
 
         <div>
             <img class="mb-4" src="https://www.img.in.th/images/177cb2acf0792db1cb0e8aaf0933aa21.jpg" width="100%" />
+            <div class="container-fluid">
 
-            <div class="row">
-                <div class="col-3 px-3 center">
-                    <a href="#" class="card mb-2">
-                        <div class="card-header text-center">
-                            หน้าหลัก
-                        </div>
-                    </a>
+                <div class="row">
+                    <div class="col-2 center">
+                        <a href="/Home" class="card mb-2">
+                            <div class="card-header text-center">
+                                หน้าหลัก
+                            </div>
+                        </a>
 
-<%--                    <a href="#" class="card mb-2 text-center">
+                        <%--                    <a href="#" class="card mb-2 text-center">
                         <div class="card-header">
                             บันทึกข้อมูลหลัก
                         </div>
                     </a>--%>
 
-                    <a href="/ProductFromPage" class="card mb-2 text-center">
-                        <div class="card-header">
-                            บันทึกข้อมูลรายการสินค้า
-                        </div>
-                    </a>
+                        <a href="/ProductFromPage" class="card mb-2 text-center">
+                            <div class="card-header">
+                                บันทึกข้อมูลรายการสินค้า
+                            </div>
+                        </a>
 
-                    <a href="/ProductTypeFormPage" class="card mb-2 text-center">
-                        <div class="card-header">
-                            บันทึกข้อมูลประเภทสินค้า
-                        </div>
-                    </a>
-                    
-                    <a href="/UserForm" class="card mb-2 text-center">
-                        <div class="card-header">
-                            บันทึกข้อมูลลูกค้า
-                        </div>
-                    </a>
+                        <a href="/ProductTypeFormPage" class="card mb-2 text-center">
+                            <div class="card-header">
+                                บันทึกข้อมูลประเภทสินค้า
+                            </div>
+                        </a>
 
-                   <%-- <a href="#" class="card mb-2 text-center">
+                        <a href="/UserForm" class="card mb-2 text-center">
+                            <div class="card-header">
+                                บันทึกข้อมูลลูกค้า
+                            </div>
+                        </a>
+
+                        <%-- <a href="#" class="card mb-2 text-center">
                         <div class="card-header">
                             บันทึกข้อมูลการสั่งทำสินค้า
                         </div>
                     </a>--%>
 
-                  <%--  <a href="#" class="card mb-2 text-center">
+                        <%--  <a href="#" class="card mb-2 text-center">
                         <div class="card-header">
                             บันทึกการชำระเงิน
                         </div>
                     </a>--%>
 
-                    <%--<a href="#" class="card mb-2 text-center">
+                        <%--<a href="#" class="card mb-2 text-center">
                         <div class="card-header">
                             พิมพ์รายงาน
                         </div>
                     </a>--%>
 
-                    <a href="/" class="card mb-2 text-center">
-                        <div class="card-header">
-                            ออกจากระบบ
-                        </div>
-                    </a>
+                        <a href="/" class="card mb-2 text-center">
+                            <div class="card-header">
+                                ออกจากระบบ
+                            </div>
+                        </a>
 
-                </div>
-                <div class="col-9">
+                    </div>
+                    <div class="col-10">
 
-                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                    </asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,9 +112,11 @@
     </form>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Niramit&display=swap');
+
         * {
             font-family: 'Niramit', sans-serif !important;
         }
+
         body {
             padding-top: 0px !important;
             padding-bottom: 0px !important;
