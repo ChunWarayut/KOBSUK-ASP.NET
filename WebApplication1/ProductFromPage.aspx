@@ -83,8 +83,9 @@
             <button class="btn btn-outline-secondary" type="button" id="button-search">ค้นหา</button>
         </div>
     </section>
-
-    <table class="table table-bordered">
+    
+    <div class=" d-flex justify-content-center">
+        <table class="table table-bordered" style="max-width: 800px">
 
         <thead>
             <tr>

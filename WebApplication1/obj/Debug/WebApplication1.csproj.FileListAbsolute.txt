@@ -38,3 +38,4 @@ C:\Users\ChunWarayut\Documents\GitHub\KOBSUK-ASP.NET\WebApplication1\bin\Newtons
 C:\Users\ChunWarayut\Documents\GitHub\KOBSUK-ASP.NET\WebApplication1\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\ChunWarayut\Documents\GitHub\KOBSUK-ASP.NET\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\ChunWarayut\Documents\GitHub\KOBSUK-ASP.NET\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\ChunWarayut\Documents\GitHub\KOBSUK-ASP.NET\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
