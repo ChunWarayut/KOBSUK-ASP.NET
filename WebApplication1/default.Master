@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="default.master.cs" Inherits="WebApplication1._default" %>
 
 <!DOCTYPE html>
 
@@ -41,16 +41,73 @@
 
         <div>
             <img class="mb-4" src="https://www.img.in.th/images/177cb2acf0792db1cb0e8aaf0933aa21.jpg" width="100%" />
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
+
+            <div class="row">
+                <div class="col-3 px-3 center">
+                    <a href="#" class="card mb-2">
+                        <div class="card-header text-center">
+                            หน้าหลัก
+                        </div>
+                    </a>
+
+                    <a href="#" class="card mb-2 text-center">
+                        <div class="card-header">
+                            บันทึกข้อมูลหลัก
+                        </div>
+                    </a>
+
+                    <a href="/ProductFromPage" class="card mb-2 text-center">
+                        <div class="card-header">
+                            บันทึกข้อมูลรายการสินค้า
+                        </div>
+                    </a>
+
+                    <a href="#" class="card mb-2 text-center">
+                        <div class="card-header">
+                            บันทึกข้อมูลประเภทสินค้า
+                        </div>
+                    </a>
+
+                    <a href="#" class="card mb-2 text-center">
+                        <div class="card-header">
+                            บันทึกข้อมูลการสั่งทำสินค้า
+                        </div>
+                    </a>
+
+                    <a href="#" class="card mb-2 text-center">
+                        <div class="card-header">
+                            บันทึกการชำระเงิน
+                        </div>
+                    </a>
+
+                    <a href="#" class="card mb-2 text-center">
+                        <div class="card-header">
+                            พิมพ์รายงาน
+                        </div>
+                    </a>
+
+                    <a href="/" class="card mb-2 text-center">
+                        <div class="card-header">
+                            ออกจากระบบ
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-9">
+
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
         </div>
 
     </form>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Niramit&display=swap');
-
+        * {
+            font-family: 'Niramit', sans-serif !important;
+        }
         body {
-            font-family: 'Niramit', sans-serif;
             padding-top: 0px !important;
             padding-bottom: 0px !important;
         }

@@ -3,7 +3,6 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <form class="form-signin">
         <div style="text-align: -webkit-center;">
-            <img class="mb-4" src="https://www.img.in.th/images/177cb2acf0792db1cb0e8aaf0933aa21.jpg" width="100%" />
 
             <div class="container my-5">
                 <div class="row">
@@ -25,7 +24,7 @@
                 </div>
             </div>
 
-            <button class="btn btn-lg btn-primary" type="submit">เข้าสู่ระบบ</button>
+            <a class="btn btn-lg btn-primary" href="/ProductFromPage">เข้าสู่ระบบ</a>
 
             <button class="btn btn-lg btn-danger" type="reset">ยกเลิก</button>
         </div>
