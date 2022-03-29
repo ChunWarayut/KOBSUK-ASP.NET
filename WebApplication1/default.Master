@@ -68,29 +68,29 @@
                         </div>
                     </a>
                     
-                    <a href="/ProductTypeFormPage" class="card mb-2 text-center">
+                    <a href="/UserForm" class="card mb-2 text-center">
                         <div class="card-header">
                             บันทึกข้อมูลลูกค้า
                         </div>
                     </a>
 
-                    <a href="#" class="card mb-2 text-center">
+                   <%-- <a href="#" class="card mb-2 text-center">
                         <div class="card-header">
                             บันทึกข้อมูลการสั่งทำสินค้า
                         </div>
-                    </a>
+                    </a>--%>
 
-                    <a href="#" class="card mb-2 text-center">
+                  <%--  <a href="#" class="card mb-2 text-center">
                         <div class="card-header">
                             บันทึกการชำระเงิน
                         </div>
-                    </a>
+                    </a>--%>
 
-                    <a href="#" class="card mb-2 text-center">
+                    <%--<a href="#" class="card mb-2 text-center">
                         <div class="card-header">
                             พิมพ์รายงาน
                         </div>
-                    </a>
+                    </a>--%>
 
                     <a href="/" class="card mb-2 text-center">
                         <div class="card-header">
